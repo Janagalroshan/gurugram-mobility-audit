@@ -1,0 +1,16 @@
+[browser]
+gatherUsageStats = false
+
+[theme]
+base = "light"
+primaryColor = "#4F46E5"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#F8FAFC"
+textColor = "#0F172A"
+font = "sans serif"
+
+[server]
+# headless must be true on Streamlit Cloud (no display).
+# run_dashboard.sh passes --server.headless false explicitly for local dev,
+# which overrides this setting.
+headless = true
