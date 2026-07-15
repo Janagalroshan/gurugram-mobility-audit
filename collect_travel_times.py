@@ -47,7 +47,7 @@ UTC = pytz.utc
 
 # Hard auto-stop: collection window closes at this IST instant.
 # CHANGE THIS before deployment to match your approved audit window.
-CUTOFF_IST = IST.localize(datetime(2026, 8, 13, 23, 59, 0))
+CUTOFF_IST = IST.localize(datetime(2026, 7, 22, 23, 59, 0))
 
 REQUEST_TIMEOUT_SEC = 30
 INTER_CALL_DELAY_SEC = 0.2
