@@ -14,9 +14,10 @@ Formulas (Appendix D of the build guide):
     CV        = std(peak travel time) / mean(peak travel time)
     SLB       computed on the national MoUD window 06-10 / 16-20
 
-Peak hours: AM {8,9,10}, PM {17,18,19} — Patna precedent. Replace with the
-Haryana Government's notified office-hours window before finalising the
-report (see data.py _peak_label docstring); do NOT fit this to the data.
+Peak hours: AM {6,7,8,9}, PM {16,17,18,19} — confirmed by the auditee for
+Gurugram (06:00-10:00 AM, 16:00-20:00 PM). Do NOT fit this to the data;
+if scope expands to other cities, verify against that city's notified
+office-hours circular (see data.py _peak_label docstring).
 """
 
 from __future__ import annotations
@@ -24,8 +25,8 @@ from __future__ import annotations
 import numpy as np
 import pandas as pd
 
-PEAK_HOURS_AM = (8, 9, 10)
-PEAK_HOURS_PM = (17, 18, 19)
+PEAK_HOURS_AM = (6, 7, 8, 9)
+PEAK_HOURS_PM = (16, 17, 18, 19)
 PEAK_HOURS = PEAK_HOURS_AM + PEAK_HOURS_PM
 
 ADCI_HOURS = range(6, 22)  # 6am-10pm
