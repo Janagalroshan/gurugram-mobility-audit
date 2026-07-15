@@ -23,3 +23,6 @@ git add travel_log.csv
 if ! git diff --cached --quiet -- travel_log.csv 2>/dev/null; then
 git commit -m "Auto-update travel_log.csv $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
 git push origin main
+else
+echo "$(date -u +'%Y-%m-%dT%H:%M:%SZ') No change in travel_log.csv, skipping push."
+fi
