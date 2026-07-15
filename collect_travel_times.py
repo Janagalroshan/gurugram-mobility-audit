@@ -165,7 +165,12 @@ def call_routes_api(api_key: str, row: dict, logger: logging.Logger) -> dict:
         },
         "travelMode": "DRIVE",
         "routingPreference": "TRAFFIC_AWARE_OPTIMAL",
-        "departureTime": utc_rfc3339_now(),
+        # departureTime is intentionally omitted. The Routes API requires any
+    # explicit departureTime to be strictly in the future; passing the
+    # current instant fails with "Timestamp must be set to a future time"
+    # because network latency puts it in the past by the time Google
+    # receives it. Omitting the field is Google's documented way to get
+    # live/current traffic conditions with TRAFFIC_AWARE_OPTIMAL.
     }
 
     try:
