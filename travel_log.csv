@@ -1,0 +1,445 @@
+timestamp_ist,date,time,day_of_week,hour,is_weekend,corridor_id,corridor_name,direction,distance_m,duration_traffic_s,duration_freeflow_s,congestion_ratio,api_status,error_msg
+2026-07-15 16:33:25,2026-07-15,16:33:25,Wednesday,16,N,1,BHAGWANMAHAABIRMARG,A_to_B,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 16:33:25,2026-07-15,16:33:25,Wednesday,16,N,1,BHAGWANMAHAABIRMARG,B_to_A,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 16:33:25,2026-07-15,16:33:25,Wednesday,16,N,2,GOLFCOURS1,A_to_B,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 16:33:26,2026-07-15,16:33:26,Wednesday,16,N,2,GOLFCOURS1,B_to_A,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 16:33:26,2026-07-15,16:33:26,Wednesday,16,N,3,GOLFCOURSERD2,A_to_B,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 16:33:26,2026-07-15,16:33:26,Wednesday,16,N,3,GOLFCOURSERD2,B_to_A,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 16:33:27,2026-07-15,16:33:27,Wednesday,16,N,4,GOLFCOURSERD3,A_to_B,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 16:33:27,2026-07-15,16:33:27,Wednesday,16,N,4,GOLFCOURSERD3,B_to_A,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 16:33:27,2026-07-15,16:33:27,Wednesday,16,N,5,GOLFCOURSEROAS,A_to_B,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 16:33:27,2026-07-15,16:33:27,Wednesday,16,N,5,GOLFCOURSEROAS,B_to_A,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 16:33:28,2026-07-15,16:33:28,Wednesday,16,N,6,KHARAMARG,A_to_B,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 16:33:28,2026-07-15,16:33:28,Wednesday,16,N,6,KHARAMARG,B_to_A,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 16:33:28,2026-07-15,16:33:28,Wednesday,16,N,7,MAIDAWASROAD,A_to_B,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 16:33:28,2026-07-15,16:33:28,Wednesday,16,N,7,MAIDAWASROAD,B_to_A,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 16:33:29,2026-07-15,16:33:29,Wednesday,16,N,8,NETAJISUBHASMARG,A_to_B,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 16:33:29,2026-07-15,16:33:29,Wednesday,16,N,8,NETAJISUBHASMARG,B_to_A,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 16:33:29,2026-07-15,16:33:29,Wednesday,16,N,9,SHREEMATISANTOSHYADAVRD,A_to_B,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 16:33:29,2026-07-15,16:33:29,Wednesday,16,N,9,SHREEMATISANTOSHYADAVRD,B_to_A,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 16:33:30,2026-07-15,16:33:30,Wednesday,16,N,10,SYNC,A_to_B,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 16:33:30,2026-07-15,16:33:30,Wednesday,16,N,10,SYNC,B_to_A,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 16:33:30,2026-07-15,16:33:30,Wednesday,16,N,11,VIKASHMARG,A_to_B,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 16:33:30,2026-07-15,16:33:30,Wednesday,16,N,11,VIKASHMARG,B_to_A,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 16:33:31,2026-07-15,16:33:31,Wednesday,16,N,12,VIKASHMARG1,A_to_B,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 16:33:31,2026-07-15,16:33:31,Wednesday,16,N,12,VIKASHMARG1,B_to_A,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 16:33:31,2026-07-15,16:33:31,Wednesday,16,N,13,NH-48 Ambience to Rajiv Chowk,A_to_B,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 16:33:31,2026-07-15,16:33:31,Wednesday,16,N,13,NH-48 Ambience to Rajiv Chowk,B_to_A,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 16:33:32,2026-07-15,16:33:32,Wednesday,16,N,14,Rajiv chowk Vatika Chowk,A_to_B,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 16:33:32,2026-07-15,16:33:32,Wednesday,16,N,14,Rajiv chowk Vatika Chowk,B_to_A,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 16:33:32,2026-07-15,16:33:32,Wednesday,16,N,15,Dwarka Express,A_to_B,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 16:33:32,2026-07-15,16:33:32,Wednesday,16,N,15,Dwarka Express,B_to_A,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 16:33:33,2026-07-15,16:33:33,Wednesday,16,N,16,Sheetla Mata Road,A_to_B,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 16:33:33,2026-07-15,16:33:33,Wednesday,16,N,16,Sheetla Mata Road,B_to_A,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 16:33:33,2026-07-15,16:33:33,Wednesday,16,N,17,Huda City Centre to Hiro Honda Chowk,A_to_B,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 16:33:33,2026-07-15,16:33:33,Wednesday,16,N,17,Huda City Centre to Hiro Honda Chowk,B_to_A,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 16:33:34,2026-07-15,16:33:34,Wednesday,16,N,18,Kanhai Village to Malipur Town,A_to_B,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 16:33:34,2026-07-15,16:33:34,Wednesday,16,N,18,Kanhai Village to Malipur Town,B_to_A,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 16:33:34,2026-07-15,16:33:34,Wednesday,16,N,19,Saint Xavier to Ghata,A_to_B,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 16:33:35,2026-07-15,16:33:35,Wednesday,16,N,19,Saint Xavier to Ghata,B_to_A,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 16:44:21,2026-07-15,16:44:21,Wednesday,16,N,1,BHAGWANMAHAABIRMARG,A_to_B,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 16:44:21,2026-07-15,16:44:21,Wednesday,16,N,1,BHAGWANMAHAABIRMARG,B_to_A,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 16:44:22,2026-07-15,16:44:22,Wednesday,16,N,2,GOLFCOURS1,A_to_B,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 16:44:22,2026-07-15,16:44:22,Wednesday,16,N,2,GOLFCOURS1,B_to_A,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 16:44:22,2026-07-15,16:44:22,Wednesday,16,N,3,GOLFCOURSERD2,A_to_B,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 16:44:23,2026-07-15,16:44:23,Wednesday,16,N,3,GOLFCOURSERD2,B_to_A,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 16:44:23,2026-07-15,16:44:23,Wednesday,16,N,4,GOLFCOURSERD3,A_to_B,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 16:44:23,2026-07-15,16:44:23,Wednesday,16,N,4,GOLFCOURSERD3,B_to_A,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 16:44:23,2026-07-15,16:44:23,Wednesday,16,N,5,GOLFCOURSEROAS,A_to_B,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 16:44:23,2026-07-15,16:44:23,Wednesday,16,N,5,GOLFCOURSEROAS,B_to_A,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 16:44:24,2026-07-15,16:44:24,Wednesday,16,N,6,KHARAMARG,A_to_B,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 16:44:24,2026-07-15,16:44:24,Wednesday,16,N,6,KHARAMARG,B_to_A,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 16:44:24,2026-07-15,16:44:24,Wednesday,16,N,7,MAIDAWASROAD,A_to_B,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 16:44:24,2026-07-15,16:44:24,Wednesday,16,N,7,MAIDAWASROAD,B_to_A,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 16:44:25,2026-07-15,16:44:25,Wednesday,16,N,8,NETAJISUBHASMARG,A_to_B,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 16:44:25,2026-07-15,16:44:25,Wednesday,16,N,8,NETAJISUBHASMARG,B_to_A,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 16:44:25,2026-07-15,16:44:25,Wednesday,16,N,9,SHREEMATISANTOSHYADAVRD,A_to_B,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 16:44:25,2026-07-15,16:44:25,Wednesday,16,N,9,SHREEMATISANTOSHYADAVRD,B_to_A,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 16:44:26,2026-07-15,16:44:26,Wednesday,16,N,10,SYNC,A_to_B,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 16:44:26,2026-07-15,16:44:26,Wednesday,16,N,10,SYNC,B_to_A,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 16:44:26,2026-07-15,16:44:26,Wednesday,16,N,11,VIKASHMARG,A_to_B,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 16:44:27,2026-07-15,16:44:27,Wednesday,16,N,11,VIKASHMARG,B_to_A,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 16:44:27,2026-07-15,16:44:27,Wednesday,16,N,12,VIKASHMARG1,A_to_B,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 16:44:27,2026-07-15,16:44:27,Wednesday,16,N,12,VIKASHMARG1,B_to_A,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 16:44:27,2026-07-15,16:44:27,Wednesday,16,N,13,NH-48 Ambience to Rajiv Chowk,A_to_B,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 16:44:28,2026-07-15,16:44:28,Wednesday,16,N,13,NH-48 Ambience to Rajiv Chowk,B_to_A,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 16:44:28,2026-07-15,16:44:28,Wednesday,16,N,14,Rajiv chowk Vatika Chowk,A_to_B,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 16:44:28,2026-07-15,16:44:28,Wednesday,16,N,14,Rajiv chowk Vatika Chowk,B_to_A,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 16:44:28,2026-07-15,16:44:28,Wednesday,16,N,15,Dwarka Express,A_to_B,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 16:44:29,2026-07-15,16:44:29,Wednesday,16,N,15,Dwarka Express,B_to_A,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 16:44:29,2026-07-15,16:44:29,Wednesday,16,N,16,Sheetla Mata Road,A_to_B,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 16:44:29,2026-07-15,16:44:29,Wednesday,16,N,16,Sheetla Mata Road,B_to_A,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 16:44:29,2026-07-15,16:44:29,Wednesday,16,N,17,Huda City Centre to Hiro Honda Chowk,A_to_B,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 16:44:30,2026-07-15,16:44:30,Wednesday,16,N,17,Huda City Centre to Hiro Honda Chowk,B_to_A,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 16:44:30,2026-07-15,16:44:30,Wednesday,16,N,18,Kanhai Village to Malipur Town,A_to_B,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 16:44:30,2026-07-15,16:44:30,Wednesday,16,N,18,Kanhai Village to Malipur Town,B_to_A,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 16:44:30,2026-07-15,16:44:30,Wednesday,16,N,19,Saint Xavier to Ghata,A_to_B,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 16:44:31,2026-07-15,16:44:31,Wednesday,16,N,19,Saint Xavier to Ghata,B_to_A,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 17:00:01,2026-07-15,17:00:01,Wednesday,17,N,1,BHAGWANMAHAABIRMARG,A_to_B,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 17:00:01,2026-07-15,17:00:01,Wednesday,17,N,1,BHAGWANMAHAABIRMARG,B_to_A,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 17:00:02,2026-07-15,17:00:02,Wednesday,17,N,2,GOLFCOURS1,A_to_B,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 17:00:02,2026-07-15,17:00:02,Wednesday,17,N,2,GOLFCOURS1,B_to_A,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 17:00:02,2026-07-15,17:00:02,Wednesday,17,N,3,GOLFCOURSERD2,A_to_B,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 17:00:02,2026-07-15,17:00:02,Wednesday,17,N,3,GOLFCOURSERD2,B_to_A,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 17:00:03,2026-07-15,17:00:03,Wednesday,17,N,4,GOLFCOURSERD3,A_to_B,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 17:00:03,2026-07-15,17:00:03,Wednesday,17,N,4,GOLFCOURSERD3,B_to_A,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 17:00:03,2026-07-15,17:00:03,Wednesday,17,N,5,GOLFCOURSEROAS,A_to_B,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 17:00:03,2026-07-15,17:00:03,Wednesday,17,N,5,GOLFCOURSEROAS,B_to_A,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 17:00:04,2026-07-15,17:00:04,Wednesday,17,N,6,KHARAMARG,A_to_B,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 17:00:04,2026-07-15,17:00:04,Wednesday,17,N,6,KHARAMARG,B_to_A,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 17:00:04,2026-07-15,17:00:04,Wednesday,17,N,7,MAIDAWASROAD,A_to_B,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 17:00:05,2026-07-15,17:00:05,Wednesday,17,N,7,MAIDAWASROAD,B_to_A,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 17:00:05,2026-07-15,17:00:05,Wednesday,17,N,8,NETAJISUBHASMARG,A_to_B,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 17:00:05,2026-07-15,17:00:05,Wednesday,17,N,8,NETAJISUBHASMARG,B_to_A,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 17:00:05,2026-07-15,17:00:05,Wednesday,17,N,9,SHREEMATISANTOSHYADAVRD,A_to_B,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 17:00:06,2026-07-15,17:00:06,Wednesday,17,N,9,SHREEMATISANTOSHYADAVRD,B_to_A,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 17:00:06,2026-07-15,17:00:06,Wednesday,17,N,10,SYNC,A_to_B,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 17:00:06,2026-07-15,17:00:06,Wednesday,17,N,10,SYNC,B_to_A,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 17:00:06,2026-07-15,17:00:06,Wednesday,17,N,11,VIKASHMARG,A_to_B,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 17:00:07,2026-07-15,17:00:07,Wednesday,17,N,11,VIKASHMARG,B_to_A,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 17:00:07,2026-07-15,17:00:07,Wednesday,17,N,12,VIKASHMARG1,A_to_B,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 17:00:07,2026-07-15,17:00:07,Wednesday,17,N,12,VIKASHMARG1,B_to_A,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 17:00:07,2026-07-15,17:00:07,Wednesday,17,N,13,NH-48 Ambience to Rajiv Chowk,A_to_B,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 17:00:08,2026-07-15,17:00:08,Wednesday,17,N,13,NH-48 Ambience to Rajiv Chowk,B_to_A,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 17:00:08,2026-07-15,17:00:08,Wednesday,17,N,14,Rajiv chowk Vatika Chowk,A_to_B,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 17:00:08,2026-07-15,17:00:08,Wednesday,17,N,14,Rajiv chowk Vatika Chowk,B_to_A,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 17:00:08,2026-07-15,17:00:08,Wednesday,17,N,15,Dwarka Express,A_to_B,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 17:00:09,2026-07-15,17:00:09,Wednesday,17,N,15,Dwarka Express,B_to_A,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 17:00:09,2026-07-15,17:00:09,Wednesday,17,N,16,Sheetla Mata Road,A_to_B,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 17:00:09,2026-07-15,17:00:09,Wednesday,17,N,16,Sheetla Mata Road,B_to_A,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 17:00:09,2026-07-15,17:00:09,Wednesday,17,N,17,Huda City Centre to Hiro Honda Chowk,A_to_B,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 17:00:10,2026-07-15,17:00:10,Wednesday,17,N,17,Huda City Centre to Hiro Honda Chowk,B_to_A,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 17:00:10,2026-07-15,17:00:10,Wednesday,17,N,18,Kanhai Village to Malipur Town,A_to_B,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 17:00:10,2026-07-15,17:00:10,Wednesday,17,N,18,Kanhai Village to Malipur Town,B_to_A,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 17:00:10,2026-07-15,17:00:10,Wednesday,17,N,19,Saint Xavier to Ghata,A_to_B,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 17:00:11,2026-07-15,17:00:11,Wednesday,17,N,19,Saint Xavier to Ghata,B_to_A,,,,,FAIL,"HTTP 400: {   ""error"": {     ""code"": 400,     ""message"": ""Timestamp must be set to a future time."",     ""status"": ""INVALID_ARGUMENT""   } }"
+2026-07-15 17:05:39,2026-07-15,17:05:39,Wednesday,17,N,1,BHAGWANMAHAABIRMARG,A_to_B,307,203,169,1.201,OK,
+2026-07-15 17:05:40,2026-07-15,17:05:40,Wednesday,17,N,1,BHAGWANMAHAABIRMARG,B_to_A,350,152,151,1.007,OK,
+2026-07-15 17:05:40,2026-07-15,17:05:40,Wednesday,17,N,2,GOLFCOURS1,A_to_B,4269,748,481,1.555,OK,
+2026-07-15 17:05:40,2026-07-15,17:05:40,Wednesday,17,N,2,GOLFCOURS1,B_to_A,4722,430,412,1.044,OK,
+2026-07-15 17:05:41,2026-07-15,17:05:41,Wednesday,17,N,3,GOLFCOURSERD2,A_to_B,1900,361,380,0.95,OK,
+2026-07-15 17:05:41,2026-07-15,17:05:41,Wednesday,17,N,3,GOLFCOURSERD2,B_to_A,375,70,54,1.296,OK,
+2026-07-15 17:05:41,2026-07-15,17:05:41,Wednesday,17,N,4,GOLFCOURSERD3,A_to_B,3360,772,518,1.49,OK,
+2026-07-15 17:05:41,2026-07-15,17:05:41,Wednesday,17,N,4,GOLFCOURSERD3,B_to_A,3023,390,349,1.117,OK,
+2026-07-15 17:05:42,2026-07-15,17:05:42,Wednesday,17,N,5,GOLFCOURSEROAS,A_to_B,6385,1182,984,1.201,OK,
+2026-07-15 17:05:42,2026-07-15,17:05:42,Wednesday,17,N,5,GOLFCOURSEROAS,B_to_A,5760,1422,821,1.732,OK,
+2026-07-15 17:05:42,2026-07-15,17:05:42,Wednesday,17,N,6,KHARAMARG,A_to_B,2916,746,622,1.199,OK,
+2026-07-15 17:05:43,2026-07-15,17:05:43,Wednesday,17,N,6,KHARAMARG,B_to_A,1647,488,373,1.308,OK,
+2026-07-15 17:05:43,2026-07-15,17:05:43,Wednesday,17,N,7,MAIDAWASROAD,A_to_B,4298,691,655,1.055,OK,
+2026-07-15 17:05:43,2026-07-15,17:05:43,Wednesday,17,N,7,MAIDAWASROAD,B_to_A,4381,874,688,1.27,OK,
+2026-07-15 17:05:43,2026-07-15,17:05:43,Wednesday,17,N,8,NETAJISUBHASMARG,A_to_B,3825,1093,767,1.425,OK,
+2026-07-15 17:05:44,2026-07-15,17:05:44,Wednesday,17,N,8,NETAJISUBHASMARG,B_to_A,3726,874,640,1.366,OK,
+2026-07-15 17:05:44,2026-07-15,17:05:44,Wednesday,17,N,9,SHREEMATISANTOSHYADAVRD,A_to_B,5276,1107,977,1.133,OK,
+2026-07-15 17:05:44,2026-07-15,17:05:44,Wednesday,17,N,9,SHREEMATISANTOSHYADAVRD,B_to_A,4144,1130,784,1.441,OK,
+2026-07-15 17:05:45,2026-07-15,17:05:45,Wednesday,17,N,10,SYNC,A_to_B,2226,451,399,1.13,OK,
+2026-07-15 17:05:45,2026-07-15,17:05:45,Wednesday,17,N,10,SYNC,B_to_A,1718,364,294,1.238,OK,
+2026-07-15 17:05:45,2026-07-15,17:05:45,Wednesday,17,N,11,VIKASHMARG,A_to_B,3923,953,776,1.228,OK,
+2026-07-15 17:05:45,2026-07-15,17:05:45,Wednesday,17,N,11,VIKASHMARG,B_to_A,3758,867,629,1.378,OK,
+2026-07-15 17:05:46,2026-07-15,17:05:46,Wednesday,17,N,12,VIKASHMARG1,A_to_B,7013,1530,1231,1.243,OK,
+2026-07-15 17:05:46,2026-07-15,17:05:46,Wednesday,17,N,12,VIKASHMARG1,B_to_A,5203,1323,866,1.528,OK,
+2026-07-15 17:05:46,2026-07-15,17:05:46,Wednesday,17,N,13,NH-48 Ambience to Rajiv Chowk,A_to_B,18821,2340,1477,1.584,OK,
+2026-07-15 17:05:47,2026-07-15,17:05:47,Wednesday,17,N,13,NH-48 Ambience to Rajiv Chowk,B_to_A,15829,1751,1170,1.497,OK,
+2026-07-15 17:05:47,2026-07-15,17:05:47,Wednesday,17,N,14,Rajiv chowk Vatika Chowk,A_to_B,11975,1197,989,1.21,OK,
+2026-07-15 17:05:47,2026-07-15,17:05:47,Wednesday,17,N,14,Rajiv chowk Vatika Chowk,B_to_A,13637,1548,1152,1.344,OK,
+2026-07-15 17:05:47,2026-07-15,17:05:47,Wednesday,17,N,15,Dwarka Express,A_to_B,7484,692,718,0.964,OK,
+2026-07-15 17:05:48,2026-07-15,17:05:48,Wednesday,17,N,15,Dwarka Express,B_to_A,6362,486,518,0.938,OK,
+2026-07-15 17:05:48,2026-07-15,17:05:48,Wednesday,17,N,16,Sheetla Mata Road,A_to_B,13940,1523,1492,1.021,OK,
+2026-07-15 17:05:48,2026-07-15,17:05:48,Wednesday,17,N,16,Sheetla Mata Road,B_to_A,12397,1727,1257,1.374,OK,
+2026-07-15 17:05:48,2026-07-15,17:05:48,Wednesday,17,N,17,Huda City Centre to Hiro Honda Chowk,A_to_B,11189,1615,1316,1.227,OK,
+2026-07-15 17:05:49,2026-07-15,17:05:49,Wednesday,17,N,17,Huda City Centre to Hiro Honda Chowk,B_to_A,10525,1329,1047,1.269,OK,
+2026-07-15 17:05:49,2026-07-15,17:05:49,Wednesday,17,N,18,Kanhai Village to Malipur Town,A_to_B,3295,742,594,1.249,OK,
+2026-07-15 17:05:49,2026-07-15,17:05:49,Wednesday,17,N,18,Kanhai Village to Malipur Town,B_to_A,3466,866,595,1.455,OK,
+2026-07-15 17:05:50,2026-07-15,17:05:50,Wednesday,17,N,19,Saint Xavier to Ghata,A_to_B,5178,1196,967,1.237,OK,
+2026-07-15 17:05:50,2026-07-15,17:05:50,Wednesday,17,N,19,Saint Xavier to Ghata,B_to_A,7090,1455,1050,1.386,OK,
+2026-07-15 17:30:01,2026-07-15,17:30:01,Wednesday,17,N,1,BHAGWANMAHAABIRMARG,A_to_B,307,220,169,1.302,OK,
+2026-07-15 17:30:01,2026-07-15,17:30:01,Wednesday,17,N,1,BHAGWANMAHAABIRMARG,B_to_A,350,159,151,1.053,OK,
+2026-07-15 17:30:02,2026-07-15,17:30:02,Wednesday,17,N,2,GOLFCOURS1,A_to_B,4269,629,481,1.308,OK,
+2026-07-15 17:30:02,2026-07-15,17:30:02,Wednesday,17,N,2,GOLFCOURS1,B_to_A,4722,434,412,1.053,OK,
+2026-07-15 17:30:02,2026-07-15,17:30:02,Wednesday,17,N,3,GOLFCOURSERD2,A_to_B,1714,298,261,1.142,OK,
+2026-07-15 17:30:02,2026-07-15,17:30:02,Wednesday,17,N,3,GOLFCOURSERD2,B_to_A,375,60,54,1.111,OK,
+2026-07-15 17:30:03,2026-07-15,17:30:03,Wednesday,17,N,4,GOLFCOURSERD3,A_to_B,3360,821,518,1.585,OK,
+2026-07-15 17:30:03,2026-07-15,17:30:03,Wednesday,17,N,4,GOLFCOURSERD3,B_to_A,3023,430,349,1.232,OK,
+2026-07-15 17:30:03,2026-07-15,17:30:03,Wednesday,17,N,5,GOLFCOURSEROAS,A_to_B,6385,1253,984,1.273,OK,
+2026-07-15 17:30:04,2026-07-15,17:30:04,Wednesday,17,N,5,GOLFCOURSEROAS,B_to_A,5760,1176,821,1.432,OK,
+2026-07-15 17:30:04,2026-07-15,17:30:04,Wednesday,17,N,6,KHARAMARG,A_to_B,2916,698,622,1.122,OK,
+2026-07-15 17:30:04,2026-07-15,17:30:04,Wednesday,17,N,6,KHARAMARG,B_to_A,1647,489,373,1.311,OK,
+2026-07-15 17:30:05,2026-07-15,17:30:05,Wednesday,17,N,7,MAIDAWASROAD,A_to_B,4298,687,655,1.049,OK,
+2026-07-15 17:30:05,2026-07-15,17:30:05,Wednesday,17,N,7,MAIDAWASROAD,B_to_A,4381,875,688,1.272,OK,
+2026-07-15 17:30:05,2026-07-15,17:30:05,Wednesday,17,N,8,NETAJISUBHASMARG,A_to_B,3825,1086,767,1.416,OK,
+2026-07-15 17:30:05,2026-07-15,17:30:05,Wednesday,17,N,8,NETAJISUBHASMARG,B_to_A,3726,815,640,1.273,OK,
+2026-07-15 17:30:06,2026-07-15,17:30:06,Wednesday,17,N,9,SHREEMATISANTOSHYADAVRD,A_to_B,5388,1242,1067,1.164,OK,
+2026-07-15 17:30:06,2026-07-15,17:30:06,Wednesday,17,N,9,SHREEMATISANTOSHYADAVRD,B_to_A,4144,1010,784,1.288,OK,
+2026-07-15 17:30:06,2026-07-15,17:30:06,Wednesday,17,N,10,SYNC,A_to_B,2226,503,399,1.261,OK,
+2026-07-15 17:30:06,2026-07-15,17:30:06,Wednesday,17,N,10,SYNC,B_to_A,1718,524,294,1.782,OK,
+2026-07-15 17:30:07,2026-07-15,17:30:07,Wednesday,17,N,11,VIKASHMARG,A_to_B,3923,955,776,1.231,OK,
+2026-07-15 17:30:07,2026-07-15,17:30:07,Wednesday,17,N,11,VIKASHMARG,B_to_A,3788,1028,690,1.49,OK,
+2026-07-15 17:30:07,2026-07-15,17:30:07,Wednesday,17,N,12,VIKASHMARG1,A_to_B,7006,1488,1273,1.169,OK,
+2026-07-15 17:30:08,2026-07-15,17:30:08,Wednesday,17,N,12,VIKASHMARG1,B_to_A,7001,1333,1189,1.121,OK,
+2026-07-15 17:30:08,2026-07-15,17:30:08,Wednesday,17,N,13,NH-48 Ambience to Rajiv Chowk,A_to_B,18821,2430,1477,1.645,OK,
+2026-07-15 17:30:08,2026-07-15,17:30:08,Wednesday,17,N,13,NH-48 Ambience to Rajiv Chowk,B_to_A,15829,1878,1170,1.605,OK,
+2026-07-15 17:30:08,2026-07-15,17:30:08,Wednesday,17,N,14,Rajiv chowk Vatika Chowk,A_to_B,11975,1339,989,1.354,OK,
+2026-07-15 17:30:09,2026-07-15,17:30:09,Wednesday,17,N,14,Rajiv chowk Vatika Chowk,B_to_A,13637,1437,1152,1.247,OK,
+2026-07-15 17:30:09,2026-07-15,17:30:09,Wednesday,17,N,15,Dwarka Express,A_to_B,7484,712,718,0.992,OK,
+2026-07-15 17:30:09,2026-07-15,17:30:09,Wednesday,17,N,15,Dwarka Express,B_to_A,6362,497,518,0.959,OK,
+2026-07-15 17:30:10,2026-07-15,17:30:10,Wednesday,17,N,16,Sheetla Mata Road,A_to_B,13940,1591,1492,1.066,OK,
+2026-07-15 17:30:10,2026-07-15,17:30:10,Wednesday,17,N,16,Sheetla Mata Road,B_to_A,12397,1863,1257,1.482,OK,
+2026-07-15 17:30:10,2026-07-15,17:30:10,Wednesday,17,N,17,Huda City Centre to Hiro Honda Chowk,A_to_B,11137,1706,1267,1.346,OK,
+2026-07-15 17:30:10,2026-07-15,17:30:10,Wednesday,17,N,17,Huda City Centre to Hiro Honda Chowk,B_to_A,10517,1391,1035,1.344,OK,
+2026-07-15 17:30:11,2026-07-15,17:30:11,Wednesday,17,N,18,Kanhai Village to Malipur Town,A_to_B,3295,750,594,1.263,OK,
+2026-07-15 17:30:11,2026-07-15,17:30:11,Wednesday,17,N,18,Kanhai Village to Malipur Town,B_to_A,3497,1005,656,1.532,OK,
+2026-07-15 17:30:11,2026-07-15,17:30:11,Wednesday,17,N,19,Saint Xavier to Ghata,A_to_B,5178,1209,967,1.25,OK,
+2026-07-15 17:30:12,2026-07-15,17:30:12,Wednesday,17,N,19,Saint Xavier to Ghata,B_to_A,6489,1284,982,1.308,OK,
+2026-07-15 18:00:01,2026-07-15,18:00:01,Wednesday,18,N,1,BHAGWANMAHAABIRMARG,A_to_B,307,334,169,1.976,OK,
+2026-07-15 18:00:01,2026-07-15,18:00:01,Wednesday,18,N,1,BHAGWANMAHAABIRMARG,B_to_A,350,164,151,1.086,OK,
+2026-07-15 18:00:01,2026-07-15,18:00:01,Wednesday,18,N,2,GOLFCOURS1,A_to_B,4269,711,481,1.478,OK,
+2026-07-15 18:00:02,2026-07-15,18:00:02,Wednesday,18,N,2,GOLFCOURS1,B_to_A,4722,454,412,1.102,OK,
+2026-07-15 18:00:02,2026-07-15,18:00:02,Wednesday,18,N,3,GOLFCOURSERD2,A_to_B,1900,370,380,0.974,OK,
+2026-07-15 18:00:02,2026-07-15,18:00:02,Wednesday,18,N,3,GOLFCOURSERD2,B_to_A,375,86,54,1.593,OK,
+2026-07-15 18:00:03,2026-07-15,18:00:03,Wednesday,18,N,4,GOLFCOURSERD3,A_to_B,3360,726,518,1.402,OK,
+2026-07-15 18:00:03,2026-07-15,18:00:03,Wednesday,18,N,4,GOLFCOURSERD3,B_to_A,3023,597,349,1.711,OK,
+2026-07-15 18:00:03,2026-07-15,18:00:03,Wednesday,18,N,5,GOLFCOURSEROAS,A_to_B,6385,1348,984,1.37,OK,
+2026-07-15 18:00:03,2026-07-15,18:00:03,Wednesday,18,N,5,GOLFCOURSEROAS,B_to_A,5760,1122,821,1.367,OK,
+2026-07-15 18:00:04,2026-07-15,18:00:04,Wednesday,18,N,6,KHARAMARG,A_to_B,2916,771,622,1.24,OK,
+2026-07-15 18:00:04,2026-07-15,18:00:04,Wednesday,18,N,6,KHARAMARG,B_to_A,1647,609,373,1.633,OK,
+2026-07-15 18:00:04,2026-07-15,18:00:04,Wednesday,18,N,7,MAIDAWASROAD,A_to_B,4298,698,655,1.066,OK,
+2026-07-15 18:00:04,2026-07-15,18:00:04,Wednesday,18,N,7,MAIDAWASROAD,B_to_A,4381,950,688,1.381,OK,
+2026-07-15 18:00:05,2026-07-15,18:00:05,Wednesday,18,N,8,NETAJISUBHASMARG,A_to_B,3825,1154,767,1.505,OK,
+2026-07-15 18:00:05,2026-07-15,18:00:05,Wednesday,18,N,8,NETAJISUBHASMARG,B_to_A,3726,962,640,1.503,OK,
+2026-07-15 18:00:05,2026-07-15,18:00:05,Wednesday,18,N,9,SHREEMATISANTOSHYADAVRD,A_to_B,5268,1252,1019,1.229,OK,
+2026-07-15 18:00:05,2026-07-15,18:00:05,Wednesday,18,N,9,SHREEMATISANTOSHYADAVRD,B_to_A,4144,1182,784,1.508,OK,
+2026-07-15 18:00:06,2026-07-15,18:00:06,Wednesday,18,N,10,SYNC,A_to_B,2226,583,399,1.461,OK,
+2026-07-15 18:00:06,2026-07-15,18:00:06,Wednesday,18,N,10,SYNC,B_to_A,1718,551,294,1.874,OK,
+2026-07-15 18:00:06,2026-07-15,18:00:06,Wednesday,18,N,11,VIKASHMARG,A_to_B,3923,914,776,1.178,OK,
+2026-07-15 18:00:07,2026-07-15,18:00:07,Wednesday,18,N,11,VIKASHMARG,B_to_A,3788,1038,718,1.446,OK,
+2026-07-15 18:00:07,2026-07-15,18:00:07,Wednesday,18,N,12,VIKASHMARG1,A_to_B,7006,1522,1273,1.196,OK,
+2026-07-15 18:00:07,2026-07-15,18:00:07,Wednesday,18,N,12,VIKASHMARG1,B_to_A,5233,1378,955,1.443,OK,
+2026-07-15 18:00:07,2026-07-15,18:00:07,Wednesday,18,N,13,NH-48 Ambience to Rajiv Chowk,A_to_B,18193,2569,1572,1.634,OK,
+2026-07-15 18:00:08,2026-07-15,18:00:08,Wednesday,18,N,13,NH-48 Ambience to Rajiv Chowk,B_to_A,15829,1872,1170,1.6,OK,
+2026-07-15 18:00:08,2026-07-15,18:00:08,Wednesday,18,N,14,Rajiv chowk Vatika Chowk,A_to_B,11975,1337,989,1.352,OK,
+2026-07-15 18:00:08,2026-07-15,18:00:08,Wednesday,18,N,14,Rajiv chowk Vatika Chowk,B_to_A,13637,1502,1152,1.304,OK,
+2026-07-15 18:00:08,2026-07-15,18:00:08,Wednesday,18,N,15,Dwarka Express,A_to_B,7484,705,718,0.982,OK,
+2026-07-15 18:00:09,2026-07-15,18:00:09,Wednesday,18,N,15,Dwarka Express,B_to_A,6362,531,518,1.025,OK,
+2026-07-15 18:00:09,2026-07-15,18:00:09,Wednesday,18,N,16,Sheetla Mata Road,A_to_B,13948,1553,1458,1.065,OK,
+2026-07-15 18:00:09,2026-07-15,18:00:09,Wednesday,18,N,16,Sheetla Mata Road,B_to_A,12646,1958,1254,1.561,OK,
+2026-07-15 18:00:09,2026-07-15,18:00:09,Wednesday,18,N,17,Huda City Centre to Hiro Honda Chowk,A_to_B,11137,1729,1267,1.365,OK,
+2026-07-15 18:00:10,2026-07-15,18:00:10,Wednesday,18,N,17,Huda City Centre to Hiro Honda Chowk,B_to_A,10525,1391,1047,1.329,OK,
+2026-07-15 18:00:10,2026-07-15,18:00:10,Wednesday,18,N,18,Kanhai Village to Malipur Town,A_to_B,3295,694,594,1.168,OK,
+2026-07-15 18:00:10,2026-07-15,18:00:10,Wednesday,18,N,18,Kanhai Village to Malipur Town,B_to_A,3497,995,656,1.517,OK,
+2026-07-15 18:00:11,2026-07-15,18:00:11,Wednesday,18,N,19,Saint Xavier to Ghata,A_to_B,5178,1202,967,1.243,OK,
+2026-07-15 18:00:11,2026-07-15,18:00:11,Wednesday,18,N,19,Saint Xavier to Ghata,B_to_A,5816,1577,1003,1.572,OK,
+2026-07-15 18:27:17,2026-07-15,18:27:17,Wednesday,18,N,1,BHAGWANMAHAABIRMARG,A_to_B,307,225,169,1.331,OK,
+2026-07-15 18:27:18,2026-07-15,18:27:18,Wednesday,18,N,1,BHAGWANMAHAABIRMARG,B_to_A,350,166,151,1.099,OK,
+2026-07-15 18:27:18,2026-07-15,18:27:18,Wednesday,18,N,2,GOLFCOURS1,A_to_B,4269,868,481,1.805,OK,
+2026-07-15 18:27:18,2026-07-15,18:27:18,Wednesday,18,N,2,GOLFCOURS1,B_to_A,4722,710,412,1.723,OK,
+2026-07-15 18:27:18,2026-07-15,18:27:18,Wednesday,18,N,3,GOLFCOURSERD2,A_to_B,1714,309,261,1.184,OK,
+2026-07-15 18:27:19,2026-07-15,18:27:19,Wednesday,18,N,3,GOLFCOURSERD2,B_to_A,375,63,54,1.167,OK,
+2026-07-15 18:27:19,2026-07-15,18:27:19,Wednesday,18,N,4,GOLFCOURSERD3,A_to_B,3360,740,518,1.429,OK,
+2026-07-15 18:27:19,2026-07-15,18:27:19,Wednesday,18,N,4,GOLFCOURSERD3,B_to_A,3023,828,349,2.372,OK,
+2026-07-15 18:27:20,2026-07-15,18:27:20,Wednesday,18,N,5,GOLFCOURSEROAS,A_to_B,6385,1613,984,1.639,OK,
+2026-07-15 18:27:20,2026-07-15,18:27:20,Wednesday,18,N,5,GOLFCOURSEROAS,B_to_A,5760,1419,821,1.728,OK,
+2026-07-15 18:27:20,2026-07-15,18:27:20,Wednesday,18,N,6,KHARAMARG,A_to_B,2916,790,622,1.27,OK,
+2026-07-15 18:27:20,2026-07-15,18:27:20,Wednesday,18,N,6,KHARAMARG,B_to_A,1647,588,373,1.576,OK,
+2026-07-15 18:27:21,2026-07-15,18:27:21,Wednesday,18,N,7,MAIDAWASROAD,A_to_B,4298,798,655,1.218,OK,
+2026-07-15 18:27:21,2026-07-15,18:27:21,Wednesday,18,N,7,MAIDAWASROAD,B_to_A,4735,1133,819,1.383,OK,
+2026-07-15 18:27:21,2026-07-15,18:27:21,Wednesday,18,N,8,NETAJISUBHASMARG,A_to_B,3825,1235,767,1.61,OK,
+2026-07-15 18:27:21,2026-07-15,18:27:21,Wednesday,18,N,8,NETAJISUBHASMARG,B_to_A,3726,1257,640,1.964,OK,
+2026-07-15 18:27:22,2026-07-15,18:27:22,Wednesday,18,N,9,SHREEMATISANTOSHYADAVRD,A_to_B,5274,1379,1053,1.31,OK,
+2026-07-15 18:27:22,2026-07-15,18:27:22,Wednesday,18,N,9,SHREEMATISANTOSHYADAVRD,B_to_A,4144,1075,784,1.371,OK,
+2026-07-15 18:27:22,2026-07-15,18:27:22,Wednesday,18,N,10,SYNC,A_to_B,2226,598,399,1.499,OK,
+2026-07-15 18:27:22,2026-07-15,18:27:22,Wednesday,18,N,10,SYNC,B_to_A,1718,622,294,2.116,OK,
+2026-07-15 18:27:23,2026-07-15,18:27:23,Wednesday,18,N,11,VIKASHMARG,A_to_B,3923,1127,776,1.452,OK,
+2026-07-15 18:27:23,2026-07-15,18:27:23,Wednesday,18,N,11,VIKASHMARG,B_to_A,3788,1178,690,1.707,OK,
+2026-07-15 18:27:23,2026-07-15,18:27:23,Wednesday,18,N,12,VIKASHMARG1,A_to_B,8031,1905,1409,1.352,OK,
+2026-07-15 18:27:23,2026-07-15,18:27:23,Wednesday,18,N,12,VIKASHMARG1,B_to_A,5234,1632,927,1.761,OK,
+2026-07-15 18:27:24,2026-07-15,18:27:24,Wednesday,18,N,13,NH-48 Ambience to Rajiv Chowk,A_to_B,18193,2720,1572,1.73,OK,
+2026-07-15 18:27:24,2026-07-15,18:27:24,Wednesday,18,N,13,NH-48 Ambience to Rajiv Chowk,B_to_A,15829,1859,1170,1.589,OK,
+2026-07-15 18:29:32,2026-07-15,18:29:32,Wednesday,18,N,1,BHAGWANMAHAABIRMARG,A_to_B,307,227,169,1.343,OK,
+2026-07-15 18:29:33,2026-07-15,18:29:33,Wednesday,18,N,1,BHAGWANMAHAABIRMARG,B_to_A,350,170,151,1.126,OK,
+2026-07-15 18:29:33,2026-07-15,18:29:33,Wednesday,18,N,2,GOLFCOURS1,A_to_B,4269,870,481,1.809,OK,
+2026-07-15 18:29:33,2026-07-15,18:29:33,Wednesday,18,N,2,GOLFCOURS1,B_to_A,4722,723,412,1.755,OK,
+2026-07-15 18:29:33,2026-07-15,18:29:33,Wednesday,18,N,3,GOLFCOURSERD2,A_to_B,1714,308,261,1.18,OK,
+2026-07-15 18:29:34,2026-07-15,18:29:34,Wednesday,18,N,3,GOLFCOURSERD2,B_to_A,375,78,54,1.444,OK,
+2026-07-15 18:29:34,2026-07-15,18:29:34,Wednesday,18,N,4,GOLFCOURSERD3,A_to_B,3360,853,518,1.647,OK,
+2026-07-15 18:29:34,2026-07-15,18:29:34,Wednesday,18,N,4,GOLFCOURSERD3,B_to_A,3023,947,349,2.713,OK,
+2026-07-15 18:29:34,2026-07-15,18:29:34,Wednesday,18,N,5,GOLFCOURSEROAS,A_to_B,6385,1766,984,1.795,OK,
+2026-07-15 18:29:35,2026-07-15,18:29:35,Wednesday,18,N,5,GOLFCOURSEROAS,B_to_A,5760,1391,821,1.694,OK,
+2026-07-15 18:29:35,2026-07-15,18:29:35,Wednesday,18,N,6,KHARAMARG,A_to_B,2916,814,622,1.309,OK,
+2026-07-15 18:29:35,2026-07-15,18:29:35,Wednesday,18,N,6,KHARAMARG,B_to_A,1647,587,373,1.574,OK,
+2026-07-15 18:29:35,2026-07-15,18:29:35,Wednesday,18,N,7,MAIDAWASROAD,A_to_B,4298,817,655,1.247,OK,
+2026-07-15 18:29:36,2026-07-15,18:29:36,Wednesday,18,N,7,MAIDAWASROAD,B_to_A,4638,1210,747,1.62,OK,
+2026-07-15 18:29:36,2026-07-15,18:29:36,Wednesday,18,N,8,NETAJISUBHASMARG,A_to_B,3825,1235,767,1.61,OK,
+2026-07-15 18:29:36,2026-07-15,18:29:36,Wednesday,18,N,8,NETAJISUBHASMARG,B_to_A,3726,1442,640,2.253,OK,
+2026-07-15 18:29:36,2026-07-15,18:29:36,Wednesday,18,N,9,SHREEMATISANTOSHYADAVRD,A_to_B,5274,1370,1053,1.301,OK,
+2026-07-15 18:29:37,2026-07-15,18:29:37,Wednesday,18,N,9,SHREEMATISANTOSHYADAVRD,B_to_A,4144,1077,784,1.374,OK,
+2026-07-15 18:29:37,2026-07-15,18:29:37,Wednesday,18,N,10,SYNC,A_to_B,2226,589,399,1.476,OK,
+2026-07-15 18:29:37,2026-07-15,18:29:37,Wednesday,18,N,10,SYNC,B_to_A,1383,710,245,2.898,OK,
+2026-07-15 18:29:37,2026-07-15,18:29:37,Wednesday,18,N,11,VIKASHMARG,A_to_B,3923,1150,776,1.482,OK,
+2026-07-15 18:29:38,2026-07-15,18:29:38,Wednesday,18,N,11,VIKASHMARG,B_to_A,3758,1167,629,1.855,OK,
+2026-07-15 18:29:38,2026-07-15,18:29:38,Wednesday,18,N,12,VIKASHMARG1,A_to_B,8031,1901,1409,1.349,OK,
+2026-07-15 18:29:38,2026-07-15,18:29:38,Wednesday,18,N,12,VIKASHMARG1,B_to_A,5439,1559,955,1.632,OK,
+2026-07-15 18:29:38,2026-07-15,18:29:38,Wednesday,18,N,13,NH-48 Ambience to Rajiv Chowk,A_to_B,18193,2716,1572,1.728,OK,
+2026-07-15 18:29:39,2026-07-15,18:29:39,Wednesday,18,N,13,NH-48 Ambience to Rajiv Chowk,B_to_A,15829,1817,1170,1.553,OK,
+2026-07-15 18:29:39,2026-07-15,18:29:39,Wednesday,18,N,14,Rajiv chowk Vatika Chowk,A_to_B,10500,1723,1232,1.399,OK,
+2026-07-15 18:29:39,2026-07-15,18:29:39,Wednesday,18,N,14,Rajiv chowk Vatika Chowk,B_to_A,13637,1558,1152,1.352,OK,
+2026-07-15 18:29:39,2026-07-15,18:29:39,Wednesday,18,N,15,Dwarka Express,A_to_B,7484,721,718,1.004,OK,
+2026-07-15 18:29:40,2026-07-15,18:29:40,Wednesday,18,N,15,Dwarka Express,B_to_A,6362,562,518,1.085,OK,
+2026-07-15 18:29:40,2026-07-15,18:29:40,Wednesday,18,N,16,Sheetla Mata Road,A_to_B,13940,1669,1492,1.119,OK,
+2026-07-15 18:29:40,2026-07-15,18:29:40,Wednesday,18,N,16,Sheetla Mata Road,B_to_A,12397,1899,1257,1.511,OK,
+2026-07-15 18:29:40,2026-07-15,18:29:40,Wednesday,18,N,17,Huda City Centre to Hiro Honda Chowk,A_to_B,11137,1762,1267,1.391,OK,
+2026-07-15 18:29:41,2026-07-15,18:29:41,Wednesday,18,N,17,Huda City Centre to Hiro Honda Chowk,B_to_A,11177,1420,1084,1.31,OK,
+2026-07-15 18:29:41,2026-07-15,18:29:41,Wednesday,18,N,18,Kanhai Village to Malipur Town,A_to_B,3295,913,594,1.537,OK,
+2026-07-15 18:29:41,2026-07-15,18:29:41,Wednesday,18,N,18,Kanhai Village to Malipur Town,B_to_A,3466,1110,595,1.866,OK,
+2026-07-15 18:29:41,2026-07-15,18:29:41,Wednesday,18,N,19,Saint Xavier to Ghata,A_to_B,5178,1515,967,1.567,OK,
+2026-07-15 18:29:42,2026-07-15,18:29:42,Wednesday,18,N,19,Saint Xavier to Ghata,B_to_A,5786,1629,943,1.727,OK,
+2026-07-15 18:30:01,2026-07-15,18:30:01,Wednesday,18,N,1,BHAGWANMAHAABIRMARG,A_to_B,307,227,169,1.343,OK,
+2026-07-15 18:30:02,2026-07-15,18:30:02,Wednesday,18,N,1,BHAGWANMAHAABIRMARG,B_to_A,350,170,151,1.126,OK,
+2026-07-15 18:30:02,2026-07-15,18:30:02,Wednesday,18,N,2,GOLFCOURS1,A_to_B,4269,870,481,1.809,OK,
+2026-07-15 18:30:02,2026-07-15,18:30:02,Wednesday,18,N,2,GOLFCOURS1,B_to_A,4722,723,412,1.755,OK,
+2026-07-15 18:30:02,2026-07-15,18:30:02,Wednesday,18,N,3,GOLFCOURSERD2,A_to_B,1714,308,261,1.18,OK,
+2026-07-15 18:30:02,2026-07-15,18:30:02,Wednesday,18,N,3,GOLFCOURSERD2,B_to_A,375,78,54,1.444,OK,
+2026-07-15 18:30:03,2026-07-15,18:30:03,Wednesday,18,N,4,GOLFCOURSERD3,A_to_B,3360,853,518,1.647,OK,
+2026-07-15 18:30:03,2026-07-15,18:30:03,Wednesday,18,N,4,GOLFCOURSERD3,B_to_A,3023,947,349,2.713,OK,
+2026-07-15 18:30:03,2026-07-15,18:30:03,Wednesday,18,N,5,GOLFCOURSEROAS,A_to_B,6385,1766,984,1.795,OK,
+2026-07-15 18:30:03,2026-07-15,18:30:03,Wednesday,18,N,5,GOLFCOURSEROAS,B_to_A,5760,1391,821,1.694,OK,
+2026-07-15 18:30:04,2026-07-15,18:30:04,Wednesday,18,N,6,KHARAMARG,A_to_B,2916,814,622,1.309,OK,
+2026-07-15 18:30:04,2026-07-15,18:30:04,Wednesday,18,N,6,KHARAMARG,B_to_A,1647,587,373,1.574,OK,
+2026-07-15 18:30:04,2026-07-15,18:30:04,Wednesday,18,N,7,MAIDAWASROAD,A_to_B,4298,817,655,1.247,OK,
+2026-07-15 18:30:04,2026-07-15,18:30:04,Wednesday,18,N,7,MAIDAWASROAD,B_to_A,4638,1210,747,1.62,OK,
+2026-07-15 18:30:05,2026-07-15,18:30:05,Wednesday,18,N,8,NETAJISUBHASMARG,A_to_B,3825,1235,767,1.61,OK,
+2026-07-15 18:30:05,2026-07-15,18:30:05,Wednesday,18,N,8,NETAJISUBHASMARG,B_to_A,3726,1442,640,2.253,OK,
+2026-07-15 18:30:05,2026-07-15,18:30:05,Wednesday,18,N,9,SHREEMATISANTOSHYADAVRD,A_to_B,5274,1370,1053,1.301,OK,
+2026-07-15 18:30:05,2026-07-15,18:30:05,Wednesday,18,N,9,SHREEMATISANTOSHYADAVRD,B_to_A,4144,1077,784,1.374,OK,
+2026-07-15 18:30:05,2026-07-15,18:30:05,Wednesday,18,N,10,SYNC,A_to_B,2226,589,399,1.476,OK,
+2026-07-15 18:30:06,2026-07-15,18:30:06,Wednesday,18,N,10,SYNC,B_to_A,1383,710,245,2.898,OK,
+2026-07-15 18:30:06,2026-07-15,18:30:06,Wednesday,18,N,11,VIKASHMARG,A_to_B,3923,1150,776,1.482,OK,
+2026-07-15 18:30:06,2026-07-15,18:30:06,Wednesday,18,N,11,VIKASHMARG,B_to_A,3758,1167,629,1.855,OK,
+2026-07-15 18:30:06,2026-07-15,18:30:06,Wednesday,18,N,12,VIKASHMARG1,A_to_B,8031,1901,1409,1.349,OK,
+2026-07-15 18:30:07,2026-07-15,18:30:07,Wednesday,18,N,12,VIKASHMARG1,B_to_A,5439,1559,955,1.632,OK,
+2026-07-15 18:30:07,2026-07-15,18:30:07,Wednesday,18,N,13,NH-48 Ambience to Rajiv Chowk,A_to_B,18193,2716,1572,1.728,OK,
+2026-07-15 18:30:07,2026-07-15,18:30:07,Wednesday,18,N,13,NH-48 Ambience to Rajiv Chowk,B_to_A,15829,1817,1170,1.553,OK,
+2026-07-15 18:30:07,2026-07-15,18:30:07,Wednesday,18,N,14,Rajiv chowk Vatika Chowk,A_to_B,10500,1723,1232,1.399,OK,
+2026-07-15 18:30:07,2026-07-15,18:30:07,Wednesday,18,N,14,Rajiv chowk Vatika Chowk,B_to_A,13637,1558,1152,1.352,OK,
+2026-07-15 18:30:08,2026-07-15,18:30:08,Wednesday,18,N,15,Dwarka Express,A_to_B,7484,721,718,1.004,OK,
+2026-07-15 18:30:08,2026-07-15,18:30:08,Wednesday,18,N,15,Dwarka Express,B_to_A,6362,562,518,1.085,OK,
+2026-07-15 18:30:08,2026-07-15,18:30:08,Wednesday,18,N,16,Sheetla Mata Road,A_to_B,13940,1669,1492,1.119,OK,
+2026-07-15 18:30:08,2026-07-15,18:30:08,Wednesday,18,N,16,Sheetla Mata Road,B_to_A,12397,1899,1257,1.511,OK,
+2026-07-15 18:30:09,2026-07-15,18:30:09,Wednesday,18,N,17,Huda City Centre to Hiro Honda Chowk,A_to_B,11137,1762,1267,1.391,OK,
+2026-07-15 18:30:09,2026-07-15,18:30:09,Wednesday,18,N,17,Huda City Centre to Hiro Honda Chowk,B_to_A,11177,1420,1084,1.31,OK,
+2026-07-15 18:30:09,2026-07-15,18:30:09,Wednesday,18,N,18,Kanhai Village to Malipur Town,A_to_B,3295,913,594,1.537,OK,
+2026-07-15 18:30:09,2026-07-15,18:30:09,Wednesday,18,N,18,Kanhai Village to Malipur Town,B_to_A,3466,1110,595,1.866,OK,
+2026-07-15 18:30:09,2026-07-15,18:30:09,Wednesday,18,N,19,Saint Xavier to Ghata,A_to_B,5178,1515,967,1.567,OK,
+2026-07-15 18:30:10,2026-07-15,18:30:10,Wednesday,18,N,19,Saint Xavier to Ghata,B_to_A,5786,1629,943,1.727,OK,
+2026-07-15 18:32:00,2026-07-15,18:32:00,Wednesday,18,N,1,BHAGWANMAHAABIRMARG,A_to_B,307,231,169,1.367,OK,
+2026-07-15 18:32:00,2026-07-15,18:32:00,Wednesday,18,N,1,BHAGWANMAHAABIRMARG,B_to_A,350,167,151,1.106,OK,
+2026-07-15 18:32:01,2026-07-15,18:32:01,Wednesday,18,N,2,GOLFCOURS1,A_to_B,4269,872,481,1.813,OK,
+2026-07-15 18:32:01,2026-07-15,18:32:01,Wednesday,18,N,2,GOLFCOURS1,B_to_A,4730,782,435,1.798,OK,
+2026-07-15 18:32:01,2026-07-15,18:32:01,Wednesday,18,N,3,GOLFCOURSERD2,A_to_B,1714,307,261,1.176,OK,
+2026-07-15 18:32:01,2026-07-15,18:32:01,Wednesday,18,N,3,GOLFCOURSERD2,B_to_A,375,91,54,1.685,OK,
+2026-07-15 18:32:02,2026-07-15,18:32:02,Wednesday,18,N,4,GOLFCOURSERD3,A_to_B,3360,761,518,1.469,OK,
+2026-07-15 18:32:02,2026-07-15,18:32:02,Wednesday,18,N,4,GOLFCOURSERD3,B_to_A,3023,988,349,2.831,OK,
+2026-07-15 18:32:02,2026-07-15,18:32:02,Wednesday,18,N,5,GOLFCOURSEROAS,A_to_B,6385,1721,984,1.749,OK,
+2026-07-15 18:32:02,2026-07-15,18:32:02,Wednesday,18,N,5,GOLFCOURSEROAS,B_to_A,5760,1398,821,1.703,OK,
+2026-07-15 18:32:03,2026-07-15,18:32:03,Wednesday,18,N,6,KHARAMARG,A_to_B,2916,828,622,1.331,OK,
+2026-07-15 18:32:03,2026-07-15,18:32:03,Wednesday,18,N,6,KHARAMARG,B_to_A,1647,571,373,1.531,OK,
+2026-07-15 18:32:03,2026-07-15,18:32:03,Wednesday,18,N,7,MAIDAWASROAD,A_to_B,4298,837,655,1.278,OK,
+2026-07-15 18:32:03,2026-07-15,18:32:03,Wednesday,18,N,7,MAIDAWASROAD,B_to_A,4638,1158,747,1.55,OK,
+2026-07-15 18:32:04,2026-07-15,18:32:04,Wednesday,18,N,8,NETAJISUBHASMARG,A_to_B,3825,1173,767,1.529,OK,
+2026-07-15 18:32:04,2026-07-15,18:32:04,Wednesday,18,N,8,NETAJISUBHASMARG,B_to_A,3726,1398,640,2.184,OK,
+2026-07-15 18:32:04,2026-07-15,18:32:04,Wednesday,18,N,9,SHREEMATISANTOSHYADAVRD,A_to_B,5274,1330,1053,1.263,OK,
+2026-07-15 18:32:04,2026-07-15,18:32:04,Wednesday,18,N,9,SHREEMATISANTOSHYADAVRD,B_to_A,4144,1071,784,1.366,OK,
+2026-07-15 18:32:05,2026-07-15,18:32:05,Wednesday,18,N,10,SYNC,A_to_B,2226,564,399,1.414,OK,
+2026-07-15 18:32:05,2026-07-15,18:32:05,Wednesday,18,N,10,SYNC,B_to_A,1718,685,294,2.33,OK,
+2026-07-15 18:32:05,2026-07-15,18:32:05,Wednesday,18,N,11,VIKASHMARG,A_to_B,3923,1248,776,1.608,OK,
+2026-07-15 18:32:05,2026-07-15,18:32:05,Wednesday,18,N,11,VIKASHMARG,B_to_A,3758,1206,629,1.917,OK,
+2026-07-15 18:32:06,2026-07-15,18:32:06,Wednesday,18,N,12,VIKASHMARG1,A_to_B,8031,1888,1409,1.34,OK,
+2026-07-15 18:32:06,2026-07-15,18:32:06,Wednesday,18,N,12,VIKASHMARG1,B_to_A,5203,1625,866,1.876,OK,
+2026-07-15 18:32:06,2026-07-15,18:32:06,Wednesday,18,N,13,NH-48 Ambience to Rajiv Chowk,A_to_B,18193,2673,1572,1.7,OK,
+2026-07-15 18:32:06,2026-07-15,18:32:06,Wednesday,18,N,13,NH-48 Ambience to Rajiv Chowk,B_to_A,15829,1828,1170,1.562,OK,
+2026-07-15 18:32:07,2026-07-15,18:32:07,Wednesday,18,N,14,Rajiv chowk Vatika Chowk,A_to_B,10500,1614,1232,1.31,OK,
+2026-07-15 18:32:07,2026-07-15,18:32:07,Wednesday,18,N,14,Rajiv chowk Vatika Chowk,B_to_A,13637,1554,1152,1.349,OK,
+2026-07-15 18:32:07,2026-07-15,18:32:07,Wednesday,18,N,15,Dwarka Express,A_to_B,7484,714,718,0.994,OK,
+2026-07-15 18:32:07,2026-07-15,18:32:07,Wednesday,18,N,15,Dwarka Express,B_to_A,6362,579,518,1.118,OK,
+2026-07-15 18:32:08,2026-07-15,18:32:08,Wednesday,18,N,16,Sheetla Mata Road,A_to_B,13940,1668,1492,1.118,OK,
+2026-07-15 18:32:08,2026-07-15,18:32:08,Wednesday,18,N,16,Sheetla Mata Road,B_to_A,12397,1923,1257,1.53,OK,
+2026-07-15 18:32:08,2026-07-15,18:32:08,Wednesday,18,N,17,Huda City Centre to Hiro Honda Chowk,A_to_B,11137,1813,1267,1.431,OK,
+2026-07-15 18:32:08,2026-07-15,18:32:08,Wednesday,18,N,17,Huda City Centre to Hiro Honda Chowk,B_to_A,11177,1564,1084,1.443,OK,
+2026-07-15 18:32:09,2026-07-15,18:32:09,Wednesday,18,N,18,Kanhai Village to Malipur Town,A_to_B,3295,1019,594,1.715,OK,
+2026-07-15 18:32:09,2026-07-15,18:32:09,Wednesday,18,N,18,Kanhai Village to Malipur Town,B_to_A,3466,1177,595,1.978,OK,
+2026-07-15 18:32:09,2026-07-15,18:32:09,Wednesday,18,N,19,Saint Xavier to Ghata,A_to_B,5178,1628,967,1.684,OK,
+2026-07-15 18:32:10,2026-07-15,18:32:10,Wednesday,18,N,19,Saint Xavier to Ghata,B_to_A,5786,1648,943,1.748,OK,
+2026-07-15 18:48:16,2026-07-15,18:48:16,Wednesday,18,N,1,BHAGWANMAHAABIRMARG,A_to_B,307,235,169,1.391,OK,
+2026-07-15 18:48:16,2026-07-15,18:48:16,Wednesday,18,N,1,BHAGWANMAHAABIRMARG,B_to_A,350,157,151,1.04,OK,
+2026-07-15 18:48:17,2026-07-15,18:48:17,Wednesday,18,N,2,GOLFCOURS1,A_to_B,4269,692,481,1.439,OK,
+2026-07-15 18:48:17,2026-07-15,18:48:17,Wednesday,18,N,2,GOLFCOURS1,B_to_A,4733,830,540,1.537,OK,
+2026-07-15 18:48:17,2026-07-15,18:48:17,Wednesday,18,N,3,GOLFCOURSERD2,A_to_B,1900,363,380,0.955,OK,
+2026-07-15 18:48:18,2026-07-15,18:48:18,Wednesday,18,N,3,GOLFCOURSERD2,B_to_A,375,79,54,1.463,OK,
+2026-07-15 18:48:18,2026-07-15,18:48:18,Wednesday,18,N,4,GOLFCOURSERD3,A_to_B,3360,815,518,1.573,OK,
+2026-07-15 18:48:18,2026-07-15,18:48:18,Wednesday,18,N,4,GOLFCOURSERD3,B_to_A,3023,920,349,2.636,OK,
+2026-07-15 18:48:18,2026-07-15,18:48:18,Wednesday,18,N,5,GOLFCOURSEROAS,A_to_B,6385,1737,984,1.765,OK,
+2026-07-15 18:48:19,2026-07-15,18:48:19,Wednesday,18,N,5,GOLFCOURSEROAS,B_to_A,5760,1521,821,1.853,OK,
+2026-07-15 18:48:19,2026-07-15,18:48:19,Wednesday,18,N,6,KHARAMARG,A_to_B,3221,826,665,1.242,OK,
+2026-07-15 18:48:19,2026-07-15,18:48:19,Wednesday,18,N,6,KHARAMARG,B_to_A,1647,531,373,1.424,OK,
+2026-07-15 18:48:19,2026-07-15,18:48:19,Wednesday,18,N,7,MAIDAWASROAD,A_to_B,4545,880,618,1.424,OK,
+2026-07-15 18:48:20,2026-07-15,18:48:20,Wednesday,18,N,7,MAIDAWASROAD,B_to_A,4284,1238,617,2.006,OK,
+2026-07-15 18:48:20,2026-07-15,18:48:20,Wednesday,18,N,8,NETAJISUBHASMARG,A_to_B,3825,1104,767,1.439,OK,
+2026-07-15 18:48:20,2026-07-15,18:48:20,Wednesday,18,N,8,NETAJISUBHASMARG,B_to_A,4939,1517,873,1.738,OK,
+2026-07-15 18:48:20,2026-07-15,18:48:20,Wednesday,18,N,9,SHREEMATISANTOSHYADAVRD,A_to_B,5287,1469,1094,1.343,OK,
+2026-07-15 18:48:21,2026-07-15,18:48:21,Wednesday,18,N,9,SHREEMATISANTOSHYADAVRD,B_to_A,4144,1192,784,1.52,OK,
+2026-07-15 18:48:21,2026-07-15,18:48:21,Wednesday,18,N,10,SYNC,A_to_B,2226,612,399,1.534,OK,
+2026-07-15 18:48:21,2026-07-15,18:48:21,Wednesday,18,N,10,SYNC,B_to_A,1383,573,245,2.339,OK,
+2026-07-15 18:48:21,2026-07-15,18:48:21,Wednesday,18,N,11,VIKASHMARG,A_to_B,3923,1178,776,1.518,OK,
+2026-07-15 18:48:22,2026-07-15,18:48:22,Wednesday,18,N,11,VIKASHMARG,B_to_A,3788,1158,690,1.678,OK,
+2026-07-15 18:48:22,2026-07-15,18:48:22,Wednesday,18,N,12,VIKASHMARG1,A_to_B,8031,2039,1409,1.447,OK,
+2026-07-15 18:48:22,2026-07-15,18:48:22,Wednesday,18,N,12,VIKASHMARG1,B_to_A,5234,1563,927,1.686,OK,
+2026-07-15 18:48:22,2026-07-15,18:48:22,Wednesday,18,N,13,NH-48 Ambience to Rajiv Chowk,A_to_B,18193,2762,1572,1.757,OK,
+2026-07-15 18:48:23,2026-07-15,18:48:23,Wednesday,18,N,13,NH-48 Ambience to Rajiv Chowk,B_to_A,15829,1895,1170,1.62,OK,
+2026-07-15 18:48:23,2026-07-15,18:48:23,Wednesday,18,N,14,Rajiv chowk Vatika Chowk,A_to_B,10500,1706,1232,1.385,OK,
+2026-07-15 18:48:23,2026-07-15,18:48:23,Wednesday,18,N,14,Rajiv chowk Vatika Chowk,B_to_A,13637,1528,1152,1.326,OK,
+2026-07-15 18:48:23,2026-07-15,18:48:23,Wednesday,18,N,15,Dwarka Express,A_to_B,7484,736,718,1.025,OK,
+2026-07-15 18:48:24,2026-07-15,18:48:24,Wednesday,18,N,15,Dwarka Express,B_to_A,6362,568,518,1.097,OK,
+2026-07-15 18:48:24,2026-07-15,18:48:24,Wednesday,18,N,16,Sheetla Mata Road,A_to_B,13940,1796,1492,1.204,OK,
+2026-07-15 18:48:24,2026-07-15,18:48:24,Wednesday,18,N,16,Sheetla Mata Road,B_to_A,12141,1965,1270,1.547,OK,
+2026-07-15 18:48:25,2026-07-15,18:48:25,Wednesday,18,N,17,Huda City Centre to Hiro Honda Chowk,A_to_B,11137,1940,1267,1.531,OK,
+2026-07-15 18:48:25,2026-07-15,18:48:25,Wednesday,18,N,17,Huda City Centre to Hiro Honda Chowk,B_to_A,6894,1593,1004,1.587,OK,
+2026-07-15 18:48:25,2026-07-15,18:48:25,Wednesday,18,N,18,Kanhai Village to Malipur Town,A_to_B,3295,986,594,1.66,OK,
+2026-07-15 18:48:25,2026-07-15,18:48:25,Wednesday,18,N,18,Kanhai Village to Malipur Town,B_to_A,3497,1147,656,1.748,OK,
+2026-07-15 18:48:26,2026-07-15,18:48:26,Wednesday,18,N,19,Saint Xavier to Ghata,A_to_B,6602,1533,1040,1.474,OK,
+2026-07-15 18:48:26,2026-07-15,18:48:26,Wednesday,18,N,19,Saint Xavier to Ghata,B_to_A,6500,1920,985,1.949,OK,
+2026-07-15 18:50:17,2026-07-15,18:50:17,Wednesday,18,N,1,BHAGWANMAHAABIRMARG,A_to_B,307,245,169,1.45,OK,
+2026-07-15 18:50:17,2026-07-15,18:50:17,Wednesday,18,N,1,BHAGWANMAHAABIRMARG,B_to_A,350,152,151,1.007,OK,
+2026-07-15 18:50:17,2026-07-15,18:50:17,Wednesday,18,N,2,GOLFCOURS1,A_to_B,4269,736,481,1.53,OK,
+2026-07-15 18:50:18,2026-07-15,18:50:18,Wednesday,18,N,2,GOLFCOURS1,B_to_A,4724,786,518,1.517,OK,
+2026-07-15 18:50:18,2026-07-15,18:50:18,Wednesday,18,N,3,GOLFCOURSERD2,A_to_B,1900,354,380,0.932,OK,
+2026-07-15 18:50:18,2026-07-15,18:50:18,Wednesday,18,N,3,GOLFCOURSERD2,B_to_A,375,88,54,1.63,OK,
+2026-07-15 18:50:18,2026-07-15,18:50:18,Wednesday,18,N,4,GOLFCOURSERD3,A_to_B,3360,723,518,1.396,OK,
+2026-07-15 18:50:19,2026-07-15,18:50:19,Wednesday,18,N,4,GOLFCOURSERD3,B_to_A,3023,853,349,2.444,OK,
+2026-07-15 18:50:19,2026-07-15,18:50:19,Wednesday,18,N,5,GOLFCOURSEROAS,A_to_B,6385,1809,984,1.838,OK,
+2026-07-15 18:50:19,2026-07-15,18:50:19,Wednesday,18,N,5,GOLFCOURSEROAS,B_to_A,5760,1402,821,1.708,OK,
+2026-07-15 18:50:19,2026-07-15,18:50:19,Wednesday,18,N,6,KHARAMARG,A_to_B,3221,822,665,1.236,OK,
+2026-07-15 18:50:20,2026-07-15,18:50:20,Wednesday,18,N,6,KHARAMARG,B_to_A,1647,521,373,1.397,OK,
+2026-07-15 18:50:20,2026-07-15,18:50:20,Wednesday,18,N,7,MAIDAWASROAD,A_to_B,4545,930,618,1.505,OK,
+2026-07-15 18:50:20,2026-07-15,18:50:20,Wednesday,18,N,7,MAIDAWASROAD,B_to_A,4638,1215,747,1.627,OK,
+2026-07-15 18:50:20,2026-07-15,18:50:20,Wednesday,18,N,8,NETAJISUBHASMARG,A_to_B,3825,1111,767,1.449,OK,
+2026-07-15 18:50:21,2026-07-15,18:50:21,Wednesday,18,N,8,NETAJISUBHASMARG,B_to_A,4939,1533,873,1.756,OK,
+2026-07-15 18:50:21,2026-07-15,18:50:21,Wednesday,18,N,9,SHREEMATISANTOSHYADAVRD,A_to_B,5287,1337,1094,1.222,OK,
+2026-07-15 18:50:21,2026-07-15,18:50:21,Wednesday,18,N,9,SHREEMATISANTOSHYADAVRD,B_to_A,4144,1219,784,1.555,OK,
+2026-07-15 18:50:21,2026-07-15,18:50:21,Wednesday,18,N,10,SYNC,A_to_B,2226,649,399,1.627,OK,
+2026-07-15 18:50:22,2026-07-15,18:50:22,Wednesday,18,N,10,SYNC,B_to_A,1718,585,294,1.99,OK,
+2026-07-15 18:50:22,2026-07-15,18:50:22,Wednesday,18,N,11,VIKASHMARG,A_to_B,3923,1167,776,1.504,OK,
+2026-07-15 18:50:22,2026-07-15,18:50:22,Wednesday,18,N,11,VIKASHMARG,B_to_A,3788,1189,690,1.723,OK,
+2026-07-15 18:50:22,2026-07-15,18:50:22,Wednesday,18,N,12,VIKASHMARG1,A_to_B,8031,2051,1409,1.456,OK,
+2026-07-15 18:50:23,2026-07-15,18:50:23,Wednesday,18,N,12,VIKASHMARG1,B_to_A,5234,1581,927,1.706,OK,
+2026-07-15 18:50:23,2026-07-15,18:50:23,Wednesday,18,N,13,NH-48 Ambience to Rajiv Chowk,A_to_B,18193,2737,1572,1.741,OK,
+2026-07-15 18:50:23,2026-07-15,18:50:23,Wednesday,18,N,13,NH-48 Ambience to Rajiv Chowk,B_to_A,15829,1897,1170,1.621,OK,
+2026-07-15 18:50:23,2026-07-15,18:50:23,Wednesday,18,N,14,Rajiv chowk Vatika Chowk,A_to_B,10500,1718,1232,1.394,OK,
+2026-07-15 18:50:24,2026-07-15,18:50:24,Wednesday,18,N,14,Rajiv chowk Vatika Chowk,B_to_A,13637,1504,1152,1.306,OK,
+2026-07-15 18:50:24,2026-07-15,18:50:24,Wednesday,18,N,15,Dwarka Express,A_to_B,7484,762,718,1.061,OK,
+2026-07-15 18:50:24,2026-07-15,18:50:24,Wednesday,18,N,15,Dwarka Express,B_to_A,6362,593,518,1.145,OK,
+2026-07-15 18:50:25,2026-07-15,18:50:25,Wednesday,18,N,16,Sheetla Mata Road,A_to_B,13940,1836,1492,1.231,OK,
+2026-07-15 18:50:25,2026-07-15,18:50:25,Wednesday,18,N,16,Sheetla Mata Road,B_to_A,12397,1949,1257,1.551,OK,
+2026-07-15 18:50:25,2026-07-15,18:50:25,Wednesday,18,N,17,Huda City Centre to Hiro Honda Chowk,A_to_B,11137,1982,1267,1.564,OK,
+2026-07-15 18:50:25,2026-07-15,18:50:25,Wednesday,18,N,17,Huda City Centre to Hiro Honda Chowk,B_to_A,10525,1624,1047,1.551,OK,
+2026-07-15 18:50:26,2026-07-15,18:50:26,Wednesday,18,N,18,Kanhai Village to Malipur Town,A_to_B,3295,947,594,1.594,OK,
+2026-07-15 18:50:26,2026-07-15,18:50:26,Wednesday,18,N,18,Kanhai Village to Malipur Town,B_to_A,3497,1168,656,1.78,OK,
+2026-07-15 18:50:26,2026-07-15,18:50:26,Wednesday,18,N,19,Saint Xavier to Ghata,A_to_B,5178,1565,967,1.618,OK,
+2026-07-15 18:50:26,2026-07-15,18:50:26,Wednesday,18,N,19,Saint Xavier to Ghata,B_to_A,6500,1829,985,1.857,OK,
