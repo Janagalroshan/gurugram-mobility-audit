@@ -1,0 +1,33 @@
+# Virtualenv
+venv/
+.venv/
+env/
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# Local secrets — NEVER commit
+.env
+
+# Collector runtime artefacts
+collector.log
+collector.log.*
+cron.log
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor
+.idea/
+.vscode/
+
+# Streamlit local cache
+.streamlit/secrets.toml
+
+# Build artefacts
+*.egg-info/
+dist/
+build/
