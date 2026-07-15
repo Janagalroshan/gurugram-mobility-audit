@@ -15,10 +15,11 @@ cd "$(dirname "$0")"
 
 ./venv/bin/python collect_travel_times.py
 
-if ! git diff --quiet -- travel_log.csv 2>/dev/null; then
+# Only commit/push if travel_log.csv has actual new content. Stage it first
+# so this works whether the file is already tracked or still untracked (git
+# diff --quiet on its own never sees untracked files, which was the bug here).
 git add travel_log.csv
+
+if ! git diff --cached --quiet -- travel_log.csv 2>/dev/null; then
 git commit -m "Auto-update travel_log.csv $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
 git push origin main
-else
-echo "$(date -u +'%Y-%m-%dT%H:%M:%SZ') No change in travel_log.csv, skipping push."
-fi
