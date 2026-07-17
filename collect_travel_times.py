@@ -47,7 +47,10 @@ UTC = pytz.utc
 
 # Hard auto-stop: collection window closes at this IST instant.
 # CHANGE THIS before deployment to match your approved audit window.
-CUTOFF_IST = IST.localize(datetime(2026, 7, 22, 23, 59, 0))
+# Kept in sync with AUDIT_END_DATE in dashboard/data.py (2026-07-31) —
+# if you move one, move the other, or the dashboard's window will run
+# past the point where the collector is still gathering data.
+CUTOFF_IST = IST.localize(datetime(2026, 7, 31, 23, 59, 0))
 
 REQUEST_TIMEOUT_SEC = 30
 INTER_CALL_DELAY_SEC = 0.2
