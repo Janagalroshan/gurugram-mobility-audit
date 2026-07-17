@@ -37,7 +37,7 @@ CORRIDORS_FILE = PROJECT_DIR / "corridors.csv"
 # CHANGE THIS to match your city's actual collection window before
 # publishing. Numbers on every page are filtered to this window so they
 # always match the dates quoted in the audit report.
-AUDIT_START_DATE = "2026-07-16"
+AUDIT_START_DATE = "2026-07-15"
 AUDIT_END_DATE = "2026-07-22"
 # --- Holidays --------------------------------------------------------------
 # Populate holidays_haryana.csv (one ISO date per line, header "date") with

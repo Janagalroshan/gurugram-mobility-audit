@@ -1,0 +1,87 @@
+name: collect-travel-times
+
+# Runs the Gurugram mobility collector every 30 minutes in GitHub's own
+# cloud runners, so data collection no longer depends on any laptop/server
+# staying powered on and awake. Every run that produces new data commits
+# and pushes travel_log.csv, which is what triggers Streamlit Cloud to
+# redeploy with fresh data.
+#
+# SETUP (one-time):
+#   1. Commit this file to: .github/workflows/collect-travel-times.yml
+#   2. In the repo: Settings -> Secrets and variables -> Actions
+#      -> New repository secret -> name it GOOGLE_MAPS_API_KEY,
+#      paste the same key that's in your local .env file.
+#   3. Settings -> Actions -> General -> Workflow permissions ->
+#      set to "Read and write permissions" (needed for the auto-push step).
+#   4. Push this file to main. It will start running on the next
+#      :00/:30 mark. You can also trigger it immediately from the
+#      Actions tab -> "collect-travel-times" -> "Run workflow".
+#   5. IMPORTANT: stop the old local/server cron job that runs
+#      sync_and_collect.sh, or disable it, so you don't get two
+#      processes racing to push to travel_log.csv at once.
+#
+# NOTE: cron schedule below is in UTC. */30 * * * * fires at :00 and :30
+# UTC every hour, which is every 30 minutes regardless of timezone.
+# GitHub Actions schedules are best-effort and can slip a few minutes
+# during high load on GitHub's side — this is normal and not a bug.
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch: {}   # lets you trigger a run manually from the Actions tab
+
+permissions:
+  contents: write   # required so the workflow can push the updated CSV
+
+concurrency:
+  group: collect-travel-times
+  cancel-in-progress: false   # never cancel a run mid-collection; let it finish
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run collector
+        env:
+          GOOGLE_MAPS_API_KEY: ${{ secrets.GOOGLE_MAPS_API_KEY }}
+        run: python collect_travel_times.py
+
+      - name: Commit and push travel_log.csv if it changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          if ! git diff --quiet -- travel_log.csv; then
+            git add travel_log.csv
+            git commit -m "Auto-update travel_log.csv $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
+
+            # Rebase onto latest main in case another run pushed in the
+            # meantime, then push. Retry once on conflict.
+            git pull --rebase origin main
+            git push origin main
+          else
+            echo "No change in travel_log.csv, skipping push."
+          fi
+
+      - name: Upload collector log on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: collector-log
+          path: collector.log
+          if-no-files-found: ignore
