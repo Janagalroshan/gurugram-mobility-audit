@@ -13,12 +13,18 @@ import zipfile
 from datetime import datetime
 
 import pandas as pd
+import pytz
 from openpyxl import Workbook
 from openpyxl.utils.dataframe import dataframe_to_rows
 from openpyxl.styles import Font
 
 import metrics
 import ui
+
+# All "as of now" timestamps written into audit outputs must read in IST,
+# never in the export server's own local/UTC clock (Streamlit Cloud runs
+# on UTC), so every report matches the IST timestamps already in the data.
+IST = pytz.timezone("Asia/Kolkata")
 
 
 def _write_df(ws, df: pd.DataFrame, title: str | None = None):
@@ -46,7 +52,7 @@ def build_excel_workbook(df: pd.DataFrame, coverage: dict, raw_all: pd.DataFrame
     ws.cell(row=1, column=1, value=f"{ui.AUDIT_TITLE}").font = Font(bold=True, size=16)
     ws.cell(row=2, column=1, value=ui.AUDIT_OFFICE)
     ws.cell(row=4, column=1, value=f"Audit window: see Methodology sheet")
-    ws.cell(row=5, column=1, value=f"Report generated: {datetime.now().strftime('%Y-%m-%d %H:%M')}")
+    ws.cell(row=5, column=1, value=f"Report generated: {datetime.now(IST).strftime('%Y-%m-%d %H:%M')} IST")
     ws.cell(row=6, column=1, value=f"Data fingerprint (MD5): {fingerprint}")
 
     # 2. Ranking
