@@ -37,8 +37,11 @@ CORRIDORS_FILE = PROJECT_DIR / "corridors.csv"
 # CHANGE THIS to match your city's actual collection window before
 # publishing. Numbers on every page are filtered to this window so they
 # always match the dates quoted in the audit report.
+# NOTE: keep this in sync with CUTOFF_IST in collect_travel_times.py —
+# if the dashboard window runs past the collector's hard cutoff, the
+# tail of the window will silently show zero data.
 AUDIT_START_DATE = "2026-07-15"
-AUDIT_END_DATE = "2026-07-22"
+AUDIT_END_DATE = "2026-07-31"
 # --- Holidays --------------------------------------------------------------
 # Populate holidays_haryana.csv (one ISO date per line, header "date") with
 # Haryana Government-notified public holidays that fall inside the audit
