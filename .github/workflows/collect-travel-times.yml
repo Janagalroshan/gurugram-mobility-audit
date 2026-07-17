@@ -68,7 +68,9 @@ jobs:
 
           if ! git diff --quiet -- travel_log.csv; then
             git add travel_log.csv
-            git commit -m "Auto-update travel_log.csv $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
+            # Commit message timestamp in IST, not the runner's UTC clock,
+            # so the git history reads in the same timezone as the data.
+            git commit -m "Auto-update travel_log.csv $(TZ='Asia/Kolkata' date +'%Y-%m-%dT%H:%M:%S IST')"
 
             # Rebase onto latest main in case another run pushed in the
             # meantime, then push. Retry once on conflict.
